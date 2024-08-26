@@ -1,0 +1,102 @@
+{
+    "plans": [
+        {
+            "rooms": {
+                "trading": [
+                    {
+                        "product": "LMD",
+                        "operators": ["巫恋", "龙舌兰", "柏喙"],
+                        "sort": true
+                    },
+                    {
+                        "product": "LMD",
+                        "operators": ["月见夜", "古米", "空爆"],
+                        "sort": true
+                    },
+                    {
+                        "product": "Orundum",
+                        "operators": ["夜刀", "夜烟", "安比尔"],
+                        "sort": true
+                    }
+                ],
+                "manufacture": [
+                    {
+                        "product": "Pure Gold",
+                        "operators": ["水月", "史都华德", "杰西卡"],
+                        "sort": true
+                    },
+                    {
+                        "product": "Pure Gold",
+                        "operators": ["苍苔", "砾", "斑点"],
+                        "sort": true
+                    },
+                    {
+                        "product": "Originium Shard",
+                        "operators": ["艾雅法拉", "炎熔", "地灵"],
+                        "sort": true
+                    }
+                ],
+                "hire": [
+                    {
+                        "autofill": true
+                    }
+                ],
+                "dormitory": [
+                    {
+                        "autofill": true
+                    },
+                    {
+                        "autofill": true
+                    },
+                    {
+                        "autofill": true
+                    },
+                    {
+                        "autofill": true
+                    }
+                ],
+                "control": [
+                    {
+                        "skip":true
+                        "operators": ["炎狱炎熔","寒芒克罗斯","濯尘芙蓉","焰影苇草","维什戴尔"],
+                        "autofill": true
+                    }
+                ],
+                "power": [
+                    {
+                        "autofill": true
+                    },
+                    {
+                        "autofill": true
+                    },
+                    {
+                        "autofill": true
+                    }
+                ],
+                "meeting": [
+                    {
+                        "operators": ["晓歌", "远山"],
+                        "autofill": false
+                    }
+                ]
+            },
+            "Fiammetta": {
+                "enable": false,
+                "target": "巫恋",
+                "order": "pre"
+            },
+            "drones": {
+                "enable": true,
+                "index": "3",
+                "room": "trading",
+                "order": "post"
+            },
+            "name": "第一班",
+            "description": "第一班",
+        },
+    ],
+    "author": "小麟自用",
+    "description": "长期搓玉第一班",
+    "title": "长期搓玉第一班",
+    "buildingType": "333"
+}
